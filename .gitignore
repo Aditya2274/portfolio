@@ -1,0 +1,11 @@
+node_modules
+dist
+.env
+.env.local
+.vscode
+.DS_Store
+*.log
+.cache
+Aditya_Ashok_Singh_Resume_Formatted.pdf
+Gemini_Generated_Image_schkbqschkbqschk.png
+
