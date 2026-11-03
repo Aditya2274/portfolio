@@ -2,17 +2,17 @@ import React from 'react'
 import { GitFork, Link, Mail, ArrowUp } from 'lucide-react'
 
 const LINKS = [
-  { href: 'https://github.com/Aditya2274',                 icon: GitFork, label: 'GitHub' },
-  { href: 'https://www.linkedin.com/in/aditya-ashok-singh-01b320282/', icon: Link,    label: 'LinkedIn' },
-  { href: 'mailto:adityaashoksingh7@gmail.com',            icon: Mail,    label: 'Email' },
+  { href: 'https://github.com/Aditya2274', icon: GitFork, label: 'GitHub' },
+  { href: 'https://www.linkedin.com/in/aditya-ashok-singh-01b320282/', icon: Link, label: 'LinkedIn' },
+  { href: 'mailto:adityaashoksingh7@gmail.com', icon: Mail, label: 'Email' },
 ]
 
 const NAV_LINKS = [
-  { href: '#about',    label: 'About' },
-  { href: '#skills',   label: 'Skills' },
+  { href: '#about', label: 'About' },
+  { href: '#skills', label: 'Skills' },
   { href: '#projects', label: 'Projects' },
   { href: '#timeline', label: 'Journey' },
-  { href: '#contact',  label: 'Contact' },
+  { href: '#contact', label: 'Contact' },
 ]
 
 export default function Footer() {
@@ -31,11 +31,11 @@ export default function Footer() {
               className="font-display font-black text-xl tracking-widest mb-3 flicker"
               style={{ color: 'var(--neon-cyan)', textShadow: '0 0 10px var(--neon-cyan)' }}
             >
-              &lt;<span style={{ color: 'var(--neon-magenta)' }}>A</span>DITYA_ASHOK_&gt;
+              &lt;<span style={{ color: 'var(--neon-magenta)' }}>A</span>ADITYA_ASHOK_&gt;
             </div>
             <p className="font-body text-sm leading-relaxed" style={{ color: 'var(--text-dim)' }}>
-              Full Stack & DevOps Engineer.<br />
-              Building scalable systems with React, Node & Docker.
+              Backend Developer & Cloud Enthusiast.<br />
+              Building things that scale.
             </p>
           </div>
 
